@@ -66,7 +66,6 @@ full_line_delimiter=false
 auto_commit=true
 changelog=$CHANGELOG_TABLE
 ignore_warnings=true
-module_name=$MODULE_NAME
 
 CONF
 
