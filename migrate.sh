@@ -72,9 +72,9 @@ CONF
 
 #copy jars
 #------------
-cp -R $DB_JAR migration/drivers
+cp -R $WORKSPACE/mybatis-automations/$DB_JAR migration/drivers
 
 #copy changlog scripts
 #----------------------
 
-cp -R 20210608052232_create_changelog.sql migration/scripts/20210608052232_create_changelog_$DB_TYPE.sql
+cp -R $WORKSPACE/mybatis-automations/20210608052232_create_changelog.sql migration/scripts/20210608052232_create_changelog_$DB_TYPE.sql
