@@ -63,7 +63,7 @@ send_full_script=false
 delimiter=;
 full_line_delimiter=false
 
-auto_commit=true
+auto_commit=false
 changelog=$CHANGELOG_TABLE
 ignore_warnings=true
 
