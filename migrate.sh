@@ -52,7 +52,7 @@ mkdir -p migration/scripts
 #-----------------------------------------------------------
 cat <<CONF > migration/environments/development.properties
 
-time_zone=CET
+time_zone=GMT
 driver=$DB_DRIVER
 url=$DB_CONNECTION_URL
 username=$DB_USER
