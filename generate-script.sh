@@ -2,7 +2,7 @@
 
 if [[ ! -z "$FILE_NAME" ]] ; then
     echo "-- //$FILE_NAME" > migrate-script
-    sed -i "s/$SCHEMA_NAME//g" $FILE_NAME
+    sed -i "s/$SCHEMA_NAME//g" mybatis-scripts/$FILE_NAME
     cat mybatis-scripts/$FILE_NAME >> migrate-script
 fi
 
